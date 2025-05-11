@@ -59,7 +59,7 @@ export default function Home() {
                   <p className="text-muted-foreground mb-4">
                     Personalized itineraries tailored to your interests, timeframe, and preferences.
                   </p>
-                  <Button asChild variant="outline" className="w-full">
+                  <Button asChild variant="outline" className="w-full hover:bg-black hover:text-white">
                     <Link href="/what-we-do" className="flex items-center justify-between">
                       <span>Learn More</span>
                       <ArrowRight className="h-4 w-4 ml-2" />
@@ -76,7 +76,7 @@ export default function Home() {
                   <p className="text-muted-foreground mb-4">
                     Wellness and yoga retreats in serene locations across the island.
                   </p>
-                  <Button asChild variant="outline" className="w-full">
+                  <Button asChild variant="outline" className="w-full hover:bg-black hover:text-white">
                     <Link href="/what-we-do#retreat-planning" className="flex items-center justify-between">
                       <span>Learn More</span>
                       <ArrowRight className="h-4 w-4 ml-2" />
@@ -93,7 +93,7 @@ export default function Home() {
                   <p className="text-muted-foreground mb-4">
                     Authentic cultural immersions and unique adventures across Sri Lanka.
                   </p>
-                  <Button asChild variant="outline" className="w-full">
+                  <Button asChild variant="outline" className="w-full hover:bg-black hover:text-white">
                     <Link href="/what-we-do#experiences" className="flex items-center justify-between">
                       <span>Learn More</span>
                       <ArrowRight className="h-4 w-4 ml-2" />
@@ -360,7 +360,7 @@ export default function Home() {
                     </div>
                     <h3 className="text-xl font-bold mb-2">{post.title}</h3>
                     <p className="text-muted-foreground mb-4 flex-1">{post.excerpt}</p>
-                    <Button asChild variant="outline" className="w-full mt-auto">
+                    <Button asChild variant="outline" className="w-full mt-auto hover:bg-black hover:text-white">
                       <Link href={`/blog/${post.slug}`}>Read More</Link>
                     </Button>
                   </CardContent>

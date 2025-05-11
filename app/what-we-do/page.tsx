@@ -54,7 +54,7 @@ export default function WhatWeDo() {
                     <p className="text-muted-foreground mb-4">{tour.description}</p>
                     <div className="flex items-center justify-between">
                       <span className="text-sm text-muted-foreground">{tour.duration}</span>
-                      <Button asChild variant="outline" size="sm">
+                      <Button asChild variant="outline" size="sm" className="hover:bg-black hover:text-white">
                         <Link href="/contact-us">Inquire</Link>
                       </Button>
                     </div>
