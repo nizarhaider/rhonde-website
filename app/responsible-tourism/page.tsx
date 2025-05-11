@@ -53,7 +53,7 @@ export default function ResponsibleTourism() {
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className="h-8 w-8 text-primary"
+                        className="h-8 w-8 text-green-700"
                       >
                         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                         <circle cx="9" cy="7" r="4"></circle>
@@ -81,7 +81,7 @@ export default function ResponsibleTourism() {
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className="h-8 w-8 text-primary"
+                        className="h-8 w-8 text-green-700"
                       >
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
@@ -108,7 +108,7 @@ export default function ResponsibleTourism() {
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className="h-8 w-8 text-primary"
+                        className="h-8 w-8 text-green-700"
                       >
                         <path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"></path>
                       </svg>
@@ -149,7 +149,7 @@ export default function ResponsibleTourism() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="h-6 w-6 text-primary"
+                      className="h-6 w-6 text-black"
                     >
                       <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                       <circle cx="9" cy="7" r="4"></circle>
@@ -215,7 +215,7 @@ export default function ResponsibleTourism() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="h-6 w-6 text-primary"
+                      className="h-6 w-6 text-black"
                     >
                       <circle cx="12" cy="12" r="10"></circle>
                       <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
@@ -286,7 +286,7 @@ export default function ResponsibleTourism() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="h-6 w-6 text-primary"
+                      className="h-6 w-6 text-black"
                     >
                       <path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"></path>
                     </svg>
@@ -356,7 +356,7 @@ export default function ResponsibleTourism() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="h-6 w-6 text-primary"
+                      className="h-6 w-6 text-black"
                     >
                       <path d="M3 6v18h18V6"></path>
                       <path d="M3 6V3h18v3"></path>
@@ -383,7 +383,7 @@ export default function ResponsibleTourism() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="h-6 w-6 text-primary"
+                      className="h-6 w-6 text-black"
                     >
                       <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
                       <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
@@ -409,7 +409,7 @@ export default function ResponsibleTourism() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="h-6 w-6 text-primary"
+                      className="h-6 w-6 text-black"
                     >
                       <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
                     </svg>
@@ -434,7 +434,7 @@ export default function ResponsibleTourism() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="h-6 w-6 text-primary"
+                      className="h-6 w-6 text-black"
                     >
                       <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
                       <circle cx="9" cy="7" r="4"></circle>
