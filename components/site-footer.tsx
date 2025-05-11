@@ -9,8 +9,8 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <Image src="/placeholder.svg?height=32&width=32" alt="Ceylon Journeys Logo" width={32} height={32} />
-              <span className="text-xl font-bold">Ceylon Journeys</span>
+              <Image src="/images/logo-image.png" alt="Rondè Ceylon Logo" width={32} height={32} />
+              <span className="text-xl font-bold">Rondè Ceylon</span>
             </Link>
             <p className="text-sm text-muted-foreground mb-4">
               Your premier travel partner for authentic Sri Lankan experiences. Let us show you the beauty of our island
@@ -100,7 +100,7 @@ export function SiteFooter() {
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                 </svg>
                 <Link
-                  href="mailto:info@ceylonjourneys.com"
+                  href="mailto:hello@rondeceylon.com"
                   className="text-sm text-muted-foreground hover:text-foreground"
                 >
                   Email
@@ -123,7 +123,7 @@ export function SiteFooter() {
                   <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                   <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
                 </svg>
-                <Link href="https://instagram.com" className="text-sm text-muted-foreground hover:text-foreground">
+                <Link href="https://www.instagram.com/rondeceylon?igsh=NzFubGE4aXllcjA2" className="text-sm text-muted-foreground hover:text-foreground">
                   Instagram
                 </Link>
               </li>
@@ -154,7 +154,7 @@ export function SiteFooter() {
             <h3 className="font-medium mb-4">Follow Us</h3>
             <div className="flex gap-4">
               <Link
-                href="https://instagram.com"
+                href="https://www.instagram.com/rondeceylon?igsh=NzFubGE4aXllcjA2"
                 className="h-10 w-10 flex items-center justify-center rounded-full bg-background hover:bg-muted"
               >
                 <svg
@@ -198,7 +198,7 @@ export function SiteFooter() {
                 <span className="sr-only">TripAdvisor</span>
               </Link>
               <Link
-                href="https://wa.me/1234567890"
+                href="https://wa.link/21mpaw"
                 className="h-10 w-10 flex items-center justify-center rounded-full bg-background hover:bg-muted"
               >
                 <svg
@@ -222,7 +222,7 @@ export function SiteFooter() {
         </div>
         <div className="border-t mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Ceylon Journeys. All rights reserved.
+            © {new Date().getFullYear()} Rondè Ceylon. All rights reserved.
           </p>
         </div>
       </div>

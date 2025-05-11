@@ -7,10 +7,12 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Ceylon Journeys | Sri Lanka Travel Agency",
+  title: "Rondè Ceylon | Sri Lanka Travel Agency",
   description:
-    "Experience the beauty of Sri Lanka with our personalized travel packages. Explore beaches, wildlife, culture, and more with Ceylon Journeys.",
-  generator: "v0.dev",
+    "Experience the beauty of Sri Lanka with our personalized travel packages. Explore beaches, wildlife, culture, and more with Rondè Ceylon.",
+  icons: {
+    icon: "/favicon-green.png",   
+  },
 }
 
 export default function RootLayout({

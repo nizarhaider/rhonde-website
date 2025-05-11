@@ -209,7 +209,7 @@ export default function WhySriLanka() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="flex flex-col md:flex-row gap-6">
                 <div className="relative h-48 md:h-auto md:w-48 flex-shrink-0 rounded-lg overflow-hidden">
-                  <Image src="/images/mountain-road.png" alt="Wildlife Safari" fill className="object-cover" />
+                  <Image src="/images/safari-adventure.jpg" alt="Wildlife Safari" fill className="object-cover" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Witness the Elephant Gathering</h3>

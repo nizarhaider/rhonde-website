@@ -202,16 +202,16 @@ export default function WhatWeDo() {
         </section>
 
         {/* Contact CTA */}
-        <section className="py-16 md:py-24 bg-black text-primary-foreground">
+        <section className="py-16 md:py-24 bg-white text-black">
           <div className="container">
             <div className="flex flex-col items-center text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6">
                 Let's Plan Your Sri Lankan Journey
               </h2>
-              <p className="max-w-[700px] mb-8 text-primary-foreground/90">
+              <p className="max-w-[700px] mb-8 text-gray-600">
                 Contact us to discuss your travel preferences and let our experts craft the perfect itinerary for you.
               </p>
-              <Button asChild size="lg" className="bg-white text-black hover:bg-white/90">
+              <Button asChild size="lg" className="bg-black text-white hover:bg-gray-800">
                 <Link href="/contact-us">Get in Touch</Link>
               </Button>
             </div>
@@ -237,7 +237,7 @@ const tours = [
     name: "Wildlife Safari Adventure",
     description: "Encounter elephants, leopards, and diverse wildlife in national parks.",
     duration: "5 Days",
-    image: "/images/mountain-road.png",
+    image: "/images/safari-adventure.jpg",
   },
   {
     id: "coastal-escape",
