@@ -326,7 +326,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-center mt-10">
-              <Button asChild>
+              <Button asChild className="bg-white text-black hover:bg-black hover:text-white">
                 <Link href="/gallery">View Full Gallery</Link>
               </Button>
             </div>
