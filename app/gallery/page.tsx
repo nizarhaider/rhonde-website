@@ -114,7 +114,7 @@ export default function Gallery() {
         {/* Wildlife Gallery */}
         <section id="wildlife" className="py-16 md:py-24 bg-muted/50">
           <div className="container">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-12 text-center">Wildlife</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-12 text-center">Beaches</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="relative h-80 rounded-lg overflow-hidden">
                 <Image
@@ -237,16 +237,16 @@ export default function Gallery() {
         </section>
 
         {/* Contact CTA */}
-        <section className="py-16 md:py-24 bg-primary text-primary-foreground">
+        <section className="py-16 md:py-24 bg-primary text-black">
           <div className="container">
             <div className="flex flex-col items-center text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6">
                 Ready to Experience Sri Lanka in Person?
               </h2>
-              <p className="max-w-[700px] mb-8 text-primary-foreground/90">
+              <p className="max-w-[700px] mb-8 text-gray-700">
                 Let us help you plan the perfect journey to capture your own memories of this beautiful island.
               </p>
-              <Button asChild size="lg" className="bg-white text-black hover:bg-white/90">
+              <Button asChild size="lg" className="bg-black text-white hover:bg-gray-800 hover:text-white">
                 <Link href="/contact-us">Start Planning Your Trip</Link>
               </Button>
             </div>
