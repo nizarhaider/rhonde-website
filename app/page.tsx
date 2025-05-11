@@ -40,11 +40,11 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Services Snippet */}
+        {/* What We Do Snippet */}
         <section className="py-16 md:py-24 bg-muted/50">
           <div className="container">
             <div className="flex flex-col items-center text-center mb-12">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Services</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">What We Do</h2>
               <p className="mt-4 max-w-[700px] text-muted-foreground">
                 Crafting bespoke experiences that showcase the best of Sri Lanka
               </p>

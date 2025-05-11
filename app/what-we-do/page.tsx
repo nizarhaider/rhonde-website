@@ -22,7 +22,7 @@ export default function WhatWeDo() {
             />
           </div>
           <div className="container relative z-10 flex flex-col items-center justify-center py-16 md:py-24 text-center text-white">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Services</h1>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">What We Do</h1>
             <p className="mt-6 max-w-[600px] text-lg md:text-xl">
               Creating unforgettable Sri Lankan experiences tailored to your preferences
             </p>
@@ -78,7 +78,7 @@ export default function WhatWeDo() {
                 </p>
                 <ul className="space-y-4 mb-6">
                   <li className="flex items-start gap-3">
-                    <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                    <div className="h-6 w-6 rounded-full bg-black flex items-center justify-center text-primary ">
                       ✓
                     </div>
                     <div>
@@ -89,7 +89,7 @@ export default function WhatWeDo() {
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
-                    <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                    <div className="h-6 w-6 rounded-full bg-black flex items-center justify-center text-primary">
                       ✓
                     </div>
                     <div>
@@ -100,7 +100,7 @@ export default function WhatWeDo() {
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
-                    <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                    <div className="h-6 w-6 rounded-full bg-black flex items-center justify-center text-primary">
                       ✓
                     </div>
                     <div>
@@ -111,7 +111,7 @@ export default function WhatWeDo() {
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
-                    <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                    <div className="h-6 w-6 rounded-full bg-black flex items-center justify-center text-primary ">
                       ✓
                     </div>
                     <div>

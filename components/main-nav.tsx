@@ -25,7 +25,7 @@ export function MainNav({ isTransparent = false }) {
               href="/what-we-do"
               className={`text-sm font-medium hover:opacity-80 ${isTransparent ? "text-white" : ""}`}
             >
-              Services
+              What We Do
             </Link>
             <Link
               href="/why-sri-lanka"
@@ -70,7 +70,7 @@ export function MainNav({ isTransparent = false }) {
                     Tours
                   </Link>
                   <Link href="/what-we-do" className="text-sm font-medium transition-colors hover:text-primary">
-                    Services
+                    What We Do
                   </Link>
                   <Link href="/why-sri-lanka" className="text-sm font-medium transition-colors hover:text-primary">
                     Why Sri Lanka

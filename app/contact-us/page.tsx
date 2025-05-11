@@ -66,7 +66,7 @@ export default function ContactUs() {
                     <Mail className="h-6 w-6 text-primary mt-0.5" />
                     <div>
                       <h3 className="font-medium">Email</h3>
-                      <p className="text-muted-foreground">tharupamaa@gmail.com</p>
+                      <p className="text-muted-foreground">hello@rondeceylon.com</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">

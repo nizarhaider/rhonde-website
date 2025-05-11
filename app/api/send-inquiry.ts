@@ -26,7 +26,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   const mailOptions = {
     from: process.env.SMTP_USER,
-    to: "tharupamaa@gmail.com", // your destination email
+    to: "hello@rondeceylon.com",
     subject: "New Inquiry from Rondè Ceylon",
     text: `
 New Inquiry Received:

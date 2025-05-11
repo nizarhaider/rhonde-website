@@ -87,7 +87,7 @@ export default function WhySriLanka() {
                   <h3 className="text-xl font-bold mb-4">Geography & Climate</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center text-black">
                         ✓
                       </div>
                       <p className="text-muted-foreground">
@@ -95,7 +95,7 @@ export default function WhySriLanka() {
                       </p>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center text-black">
                         ✓
                       </div>
                       <p className="text-muted-foreground">
@@ -103,7 +103,7 @@ export default function WhySriLanka() {
                       </p>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center text-black">
                         ✓
                       </div>
                       <p className="text-muted-foreground">
@@ -111,7 +111,7 @@ export default function WhySriLanka() {
                       </p>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center text-black">
                         ✓
                       </div>
                       <p className="text-muted-foreground">
@@ -126,7 +126,7 @@ export default function WhySriLanka() {
                   <h3 className="text-xl font-bold mb-4">Culture & People</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center text-black ">
                         ✓
                       </div>
                       <p className="text-muted-foreground">
@@ -134,7 +134,7 @@ export default function WhySriLanka() {
                       </p>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center text-black ">
                         ✓
                       </div>
                       <p className="text-muted-foreground">
@@ -142,7 +142,7 @@ export default function WhySriLanka() {
                       </p>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center text-black ">
                         ✓
                       </div>
                       <p className="text-muted-foreground">
@@ -150,7 +150,7 @@ export default function WhySriLanka() {
                       </p>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center text-black ">
                         ✓
                       </div>
                       <p className="text-muted-foreground">
@@ -165,13 +165,13 @@ export default function WhySriLanka() {
                   <h3 className="text-xl font-bold mb-4">Practical Information</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center text-black">
                         ✓
                       </div>
                       <p className="text-muted-foreground">Currency: Sri Lankan Rupee (LKR)</p>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center text-black">
                         ✓
                       </div>
                       <p className="text-muted-foreground">
@@ -179,13 +179,13 @@ export default function WhySriLanka() {
                       </p>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center text-black">
                         ✓
                       </div>
                       <p className="text-muted-foreground">Time zone: GMT+5:30</p>
                     </li>
                     <li className="flex items-start gap-3">
-                      <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center text-primary mt-0.5">
+                      <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center text-black">
                         ✓
                       </div>
                       <p className="text-muted-foreground">Driving is on the left side of the road</p>
