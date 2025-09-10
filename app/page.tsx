@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <main className="flex-1 home-main">
+
         {/* Hero Section */}
         <section className="relative h-screen pt-16">
           <MainNav isTransparent={true} />
@@ -23,7 +24,7 @@ export default function Home() {
               priority
             />
           </div>
-          <div className="container relative z-10 h-full flex flex-col justify-end items-center pb-16">
+          <div className="container relative z-10 h-full flex flex-col justify-start items-center pt-32">
             <div className="text-center space-y-6">
               <h1>
                 <span className="text-white px-4 py-2 rounded-lg inline-block text-5xl md:text-6xl lg:text-5xl font-bold">
@@ -31,14 +32,22 @@ export default function Home() {
                 </span>
               </h1>
               <p>
-                <span className=" text-white px-4 py-2 rounded-lg inline-block text-md md:text-lg max-w-xl">
+                <span className="text-white px-4 py-2 rounded-lg inline-block text-md md:text-lg max-w-xl">
                   Welcome to Sri Lanka – our slice of paradise in the Indian Ocean. You've heard of the magic; now it's
                   your turn to dive in!
                 </span>
               </p>
+              <Button
+                asChild
+                className="mt-6 border border-white bg-transparent text-white px-8 py-3 text-lg font-medium 
+                          hover:bg-green-500 hover:text-white transition-all duration-300 transform hover:-translate-y-1"
+              >
+                <Link href="/what-we-do">Explore What We Do</Link>
+              </Button>
             </div>
           </div>
         </section>
+
 
         {/* About Us Description */}
         <section className="py-16 md:py-24">
