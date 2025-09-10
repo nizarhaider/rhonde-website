@@ -65,7 +65,7 @@ export default function Home() {
         </section>
 
         {/* What We Do Snippet */}
-        <section className="py-16 md:py-24 bg-muted/50">
+        <section className="py-16 md:py-12 bg-muted/50">
           <div className="container">
             <div className="flex flex-col items-center text-center mb-12">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">What We Do</h2>
