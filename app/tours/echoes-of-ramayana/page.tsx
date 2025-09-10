@@ -1,15 +1,18 @@
 import React from "react"
 import Image from "next/image"
+import { MainNav } from "@/components/main-nav"
+import { SiteFooter } from "@/components/site-footer"
 
 export default function EchoesOfRamayanaPage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <MainNav />
       <main className="flex-1">
         {/* Hero Section */}
         <section className="relative">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/images/cave-temple.png"
+              src="/images/Echoes_of_Ramayana.JPG"
               alt="Echoes of the Ramayana"
               fill
               className="object-cover brightness-[0.7]"
@@ -46,7 +49,7 @@ export default function EchoesOfRamayanaPage() {
               <div className="mt-8">
                 <a
                   href="/contact-us"
-                  className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8"
+                  className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-black text-white hover:bg-black/90 h-11 px-8"
                 >
                   Get in Touch
                 </a>
@@ -55,6 +58,7 @@ export default function EchoesOfRamayanaPage() {
           </div>
         </section>
       </main>
+      <SiteFooter />
     </div>
   )
 }

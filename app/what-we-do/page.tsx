@@ -50,42 +50,42 @@ export default function WhatWeDo() {
                   name: "From Waves to Peaks",
                   description: "Trace the rhythm of Sri Lanka, from sun-kissed shores to misty mountain heights.",
                   duration: "7 nights/8 days",
-                  image: "/images/mountain-valley.png"
+                  image: "/images/From_waves_to_peak.jpg"
                 },
                 {
                   id: "mindful-sri-lanka",
                   name: "Mindful Sri Lanka",
                   description: "Wander through serene forests and sacred spaces, letting each moment settle like a quiet breath.",
                   duration: "9 nights/10 days",
-                  image: "/images/monk_meditating.jpg"
+                  image: "/images/Mindful_Sri_Lanka.jpg"
                 },
                 {
                   id: "paths-less-traveled",
                   name: "Paths Less Traveled",
                   description: "Step off the beaten path and uncover hidden villages, secret waterfalls, and untouched landscapes.",
                   duration: "12 nights/13 days",
-                  image: "/images/green-valley.png"
+                  image: "/images/Paths_less_travelled.jpg"
                 },
                 {
                   id: "echoes-of-ramayana",
                   name: "Echoes of the Ramayana",
                   description: "Follow the footsteps of legends across timeless temples, forests, and coastal treasures.",
                   duration: "8 nights/9 days",
-                  image: "/images/cave-temple.png"
+                  image: "/images/Echoes_of_Ramayana.JPG"
                 },
                 {
                   id: "northern-wonders",
                   name: "Northern Wonders and Heritage",
                   description: "Explore ancient cities and coastal gems where history whispers in every corner.",
                   duration: "7 nights/8 days",
-                  image: "/images/buddha_statue_cave.jpg"
+                  image: "/images/nothern_wonders_and_heritage.jpg"
                 },
                 {
                   id: "sri-lanka-classics",
                   name: "Sri Lanka Classics",
                   description: "Immerse in the iconic highlights, from cultural hubs to coastal charm, all in one journey.",
                   duration: "6 nights/7 days",
-                  image: "/images/sigiriya-rock.png"
+                  image: "/images/srilanka_classics.png"
                 }
               ].map((tour) => (
                 <Link key={tour.id} href={`/tours/${tour.id}`}>
@@ -111,7 +111,7 @@ export default function WhatWeDo() {
         </section>
 
         {/* Retreat Planning */}
-        <section id="retreat-planning" className="py-16 md:py-24 bg-muted/50">
+        {/* <section id="retreat-planning" className="py-16 md:py-24 bg-muted/50">
           <div className="container">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
@@ -176,7 +176,7 @@ export default function WhatWeDo() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Experiences */}
         <section id="experiences" className="py-16 md:py-24">

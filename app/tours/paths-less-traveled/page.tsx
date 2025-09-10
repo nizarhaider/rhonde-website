@@ -1,5 +1,48 @@
 import React from "react"
-import Image from "next/image"
+i        {/* Two Column Layout Section */}
+        <section className="py-16 md:py-24">
+          <div className="container">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              {/* Left Column - Tour Overview */}
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">Paths Less Traveled</h2>
+                <div className="prose prose-lg">
+                  <p>Step off the beaten track and discover Sri Lanka's hidden treasures. This unique tour takes you beyond the usual tourist spots to explore secluded villages, lesser-known ancient ruins, and pristine natural wonders.</p>
+                  <p className="mt-4">Journey through remote landscapes and connect with local communities that few visitors ever encounter. Experience the authentic heart of Sri Lanka through its undiscovered gems and genuine cultural encounters.</p>
+                </div>
+              </div>
+
+              {/* Right Column - Tour Highlights */}
+              <div className="bg-muted/30 rounded-lg p-8">
+                <h2 className="text-2xl font-bold tracking-tighter mb-6">Tour Highlights</h2>
+                <ul className="space-y-4">
+                  <li className="flex items-start">
+                    <span className="mr-2 mt-1">•</span>
+                    <span>Explore hidden waterfalls and secret forest trails</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 mt-1">•</span>
+                    <span>Visit remote villages and experience authentic local life</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 mt-1">•</span>
+                    <span>Discover lesser-known ancient ruins and archaeological sites</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 mt-1">•</span>
+                    <span>Learn traditional crafts from local artisans</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 mt-1">•</span>
+                    <span>Stay in unique accommodations off the tourist trail</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Section */} from "next/image"
 
 export default function PathsLessTraveledPage() {
   return (
@@ -9,7 +52,7 @@ export default function PathsLessTraveledPage() {
         <section className="relative">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/images/green-valley.png"
+              src="/images/Paths_less_travelled.jpg"
               alt="Paths Less Traveled"
               fill
               className="object-cover brightness-[0.7]"
@@ -46,7 +89,7 @@ export default function PathsLessTraveledPage() {
               <div className="mt-8">
                 <a
                   href="/contact-us"
-                  className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8"
+                  className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-black text-white hover:bg-black/90 h-11 px-8"
                 >
                   Get in Touch
                 </a>
