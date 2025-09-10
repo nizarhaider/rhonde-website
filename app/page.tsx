@@ -96,7 +96,7 @@ export default function Home() {
                   <Image src="/images/yoga_pose.jpg" alt="Retreat Planning" fill className="object-cover rounded-t-lg" />
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2">Welness Retreat</h3>
+                  <h3 className="text-xl font-bold mb-2">Wellness Retreat</h3>
                   <p className="text-muted-foreground mb-4">
                     Wellness and yoga retreats in serene locations across the island.
                   </p>
