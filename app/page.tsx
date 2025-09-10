@@ -76,7 +76,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <Card>
                 <div className="relative h-48">
-                  <Image src="/images/nine-arch-bridge.png" alt="Bespoke Tours" fill className="object-cover rounded-t-lg" />
+                  <Image src="/images/bespoke_tours.jpg" alt="Bespoke Tours" fill className="object-cover rounded-t-lg" />
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2">Bespoke Tours</h3>
@@ -93,10 +93,10 @@ export default function Home() {
               </Card>
               <Card>
                 <div className="relative h-48">
-                  <Image src="/images/lake-view.png" alt="Retreat Planning" fill className="object-cover rounded-t-lg" />
+                  <Image src="/images/yoga_pose.jpg" alt="Retreat Planning" fill className="object-cover rounded-t-lg" />
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2">Retreat Planning</h3>
+                  <h3 className="text-xl font-bold mb-2">Welness Retreat</h3>
                   <p className="text-muted-foreground mb-4">
                     Wellness and yoga retreats in serene locations across the island.
                   </p>
@@ -110,7 +110,7 @@ export default function Home() {
               </Card>
               <Card>
                 <div className="relative h-48">
-                  <Image src="/images/buddha-statues.png" alt="Cultural Experiences" fill className="object-cover rounded-t-lg" />
+                  <Image src="/images/buddha_statue_cave.jpg" alt="Cultural Experiences" fill className="object-cover rounded-t-lg" />
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2">Cultural Experiences</h3>
