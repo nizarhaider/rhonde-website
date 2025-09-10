@@ -59,7 +59,7 @@ export default function EchoesOfRamayanaPage() {
               </div>
 
               {/* Right Column - Tour Highlights */}
-              <div className="bg-muted/30 rounded-lg p-8">
+              <div className="bg-muted/30 rounded-lg p-8 border-black border-2">
                 <h2 className="text-2xl font-bold tracking-tighter mb-6">
                   Tour Highlights
                 </h2>
