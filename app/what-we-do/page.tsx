@@ -26,11 +26,16 @@ export default function WhatWeDo() {
             <p className="mt-6 max-w-[600px] text-lg md:text-xl">
               Creating unforgettable Sri Lankan experiences tailored to your preferences
             </p>
+            <Link href="/what-we-do/meet-the-team">
+              <Button size="lg" className="mt-8 bg-black text-white hover:bg-black/80">
+                Meet the Team
+              </Button>
+            </Link>
           </div>
         </section>
 
         {/* Bespoke Tours */}
-        <section id="bespoke-tours" className="py-16 md:py-24">
+        <section id="bespoke-tours" className="py-16 md:py-16">
           <div className="container">
             <div className="flex flex-col items-center text-center mb-12">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Bespoke Tours</h2>

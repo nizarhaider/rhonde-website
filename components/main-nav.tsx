@@ -4,6 +4,14 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+} from "@/components/ui/navigation-menu"
 
 export function MainNav({ isTransparent = false }) {
   const [open, setOpen] = React.useState(false)
@@ -17,16 +25,44 @@ export function MainNav({ isTransparent = false }) {
           <Link href="/" className={`text-3xl font-bold tracking-wider ${isTransparent ? "text-white" : ""}`}>
             RONDÈ
           </Link>
-          <nav className="hidden md:flex gap-8">
-            {/* <Link href="/tours" className={`text-sm font-medium hover:opacity-80 ${isTransparent ? "text-white" : ""}`}>
-              Tours
-            </Link> */}
-            <Link
-              href="/what-we-do"
-              className={`text-sm font-medium hover:opacity-80 ${isTransparent ? "text-white" : ""}`}
-            >
-              What We Do
-            </Link>
+          <nav className="hidden md:flex gap-8 items-center">
+            <NavigationMenu>
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger className={`text-sm font-medium cursor-default ${isTransparent ? "text-white" : ""}`} onClick={(e) => e.preventDefault()}>
+                    What We Do
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <ul className="grid gap-3 p-4 w-[300px] bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80 rounded-md shadow-lg">
+                      <li>
+                        <Link
+                          href="/what-we-do"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Bespoke Tours</div>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/what-we-do/how-it-started"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">How It Started</div>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/what-we-do/meet-the-team"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Meet the Team</div>
+                        </Link>
+                      </li>
+                    </ul>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
             <Link
               href="/why-sri-lanka"
               className={`text-sm font-medium hover:opacity-80 ${isTransparent ? "text-white" : ""}`}
