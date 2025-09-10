@@ -36,8 +36,12 @@ export default function WavesToPeaksPage() {
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">From Waves to Peaks</h2>
                 <div className="prose prose-lg">
-                  <p>Experience the diverse landscapes of Sri Lanka in this carefully curated journey that takes you from coastal paradises to mountain retreats. Begin your adventure on pristine beaches, then gradually ascend through lush landscapes to reach the misty peaks of the hill country.</p>
-                  <p className="mt-4">Immerse yourself in the changing scenery as you travel from the warm, tropical coastline through the cultural heart of the island, and up into the cool, misty highlands. Each day brings new perspectives and experiences, perfectly capturing Sri Lanka's incredible diversity in one seamless journey.</p>
+                  <p>
+                    Begin your journey along Sri Lanka’s southern shores, where golden beaches meet the lush hinterlands, and every day flows with mindful discovery. From gentle mornings on Unawatuna’s tranquil sands to the thrill of whale watching in Weligama, each experience blends relaxation with connection to nature and local culture.
+                  </p>
+                  <p className="mt-4">
+                    Surfing lessons, quiet coastal walks, and visits to small community projects offer moments of reflection and purpose, while the serene landscapes of Hiriketiya and Ella invite you to breathe deeply and move at your own pace. Wildlife encounters at Yala awaken a sense of wonder, and the scenic train through misty tea plantations adds a quiet, contemplative rhythm to your journey. Along the way, eco-conscious accommodations and immersive wellness activities create space to recharge and reconnect. This is a journey that balances adventure and calm, leaving you present, inspired, and deeply connected to the heart of Sri Lanka.
+                  </p>
                 </div>
               </div>
 
@@ -47,23 +51,35 @@ export default function WavesToPeaksPage() {
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <span className="mr-2 mt-1">•</span>
-                    <span>Explore pristine beaches and coastal villages along the southern coast</span>
+                    <span>Arrival in Unawatuna and evening at leisure on serene beaches</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1">•</span>
-                    <span>Visit ancient temples and historical sites in the Cultural Triangle</span>
+                    <span>Diving or snorkeling at a shipwreck site, followed by a stroll through historic Galle Fort</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1">•</span>
-                    <span>Experience traditional tea plantations and colonial heritage in the hill country</span>
+                    <span>Whale watching in Weligama, with visits to a dog shelter and a local vegetable farm</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1">•</span>
-                    <span>Take a scenic train journey through mist-covered mountains</span>
+                    <span>Surfing lesson in Weligama and time to relax on Hiriketiya’s shores, including a visit to Blue Beach Island</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1">•</span>
-                    <span>Stay in carefully selected boutique properties that complement each location</span>
+                    <span>Sunrise safari at Yala National Park, spotting wildlife in its natural habitat</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 mt-1">•</span>
+                    <span>Scenic train journey from Ella to Nanu Oya, exploring misty tea plantations and Nuwara Eliya</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 mt-1">•</span>
+                    <span>Adventure and relaxation in Kitulgala, with optional white-water rafting, before heading to Colombo</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 mt-1">•</span>
+                    <span>Leisurely exploration of Colombo, from markets and landmarks to art galleries and coastal walks</span>
                   </li>
                 </ul>
               </div>

@@ -24,7 +24,7 @@ export default function EchoesOfRamayanaPage() {
               Echoes of the Ramayana
             </h1>
             <p className="mt-6 max-w-[600px] text-lg md:text-xl">
-              Follow the footsteps of legends across timeless temples, forests, and coastal treasures.
+              Step into a journey where legend, nature, and mindful presence intertwine.
             </p>
             <div className="mt-4 text-lg font-medium">8 nights/9 days</div>
           </div>
@@ -41,10 +41,19 @@ export default function EchoesOfRamayanaPage() {
                 </h2>
                 <div className="prose prose-lg">
                   <p>
-                    Journey through the mythical landscapes of Sri Lanka connected to the ancient epic of Ramayana. Visit historical sites, temples, and natural wonders that feature in this timeless tale, while experiencing the living culture that preserves these legends.
+                    Step into a journey where legend, nature, and mindful presence intertwine. From the
+                    golden sands of Mannar to the misty hills of Nuwara Eliya, each day flows gently between
+                    sacred sites, serene landscapes, and immersive local experiences. Climb ancient fortresses,
+                    wander through sacred temples, and feel the quiet pulse of waterfalls and forests, all while
+                    savoring moments of calm and reflection.
                   </p>
                   <p className="mt-4">
-                    This immersive journey blends mythology, spirituality, and history, offering a deeper connection to Sri Lanka’s sacred heritage and cultural richness.
+                    Wildlife encounters in Yala and the otherworldly red plains of Ussangoda invite stillness
+                    and awe, while coastal evenings in Unawatuna offer time to breathe, swim, and simply be.
+                    Along the way, the stories of the Ramayana come alive—not as distant myth, but as a living
+                    connection to the land and its people. This retreat blends gentle adventure with mindful
+                    pauses, weaving together cultural insight, natural beauty, and personal reflection into a
+                    holistic journey of wellness.
                   </p>
                 </div>
               </div>
@@ -57,23 +66,41 @@ export default function EchoesOfRamayanaPage() {
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <span className="mr-2 mt-1">•</span>
-                    <span>Visit the iconic Seetha Amman Temple in Nuwara Eliya</span>
+                    <span>Witness the legendary Adam’s Bridge at sunset, where myth and sea meet.</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1">•</span>
-                    <span>Explore the Ashok Vatika and its legendary connections</span>
+                    <span>
+                      Explore sacred temples perched on cliffs and along the coast, including Thirukoneshwaram
+                      and Seetha Amman Kovil.
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1">•</span>
-                    <span>Discover the ancient Munneswaram and Koneswaram Temples</span>
+                    <span>Climb Sigiriya Lion Rock and stroll through Dunuwila, sites of history and legend.</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1">•</span>
-                    <span>Trace Hanuman’s path through sacred sites and landscapes</span>
+                    <span>Discover the mystery of Ravana’s Caves and the cascading beauty of Ravana Falls.</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 mt-1">•</span>
-                    <span>Experience local culture and traditions tied to Ramayana legends</span>
+                    <span>Observe leopards, elephants, and other wildlife on a mindful safari at Yala National Park.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 mt-1">•</span>
+                    <span>Walk the fiery-red plains of Ussangoda, a landscape steeped in myth.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 mt-1">•</span>
+                    <span>
+                      Relax and reconnect along Unawatuna’s beaches and the secluded Jungle Beach at Rumassala
+                      Mountain.
+                    </span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 mt-1">•</span>
+                    <span>Visit the sacred Kelaniya Temple, absorbing its spiritual calm and intricate murals.</span>
                   </li>
                 </ul>
               </div>

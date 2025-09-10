@@ -24,7 +24,7 @@ export default function PathsLessTraveledPage() {
               Paths Less Traveled
             </h1>
             <p className="mt-6 max-w-[600px] text-lg md:text-xl">
-              Step off the beaten path and uncover hidden villages, secret waterfalls, and untouched landscapes.
+              A mindful journey through hidden villages, sacred paths, and untouched landscapes of Sri Lanka.
             </p>
             <div className="mt-4 text-lg font-medium">12 nights/13 days</div>
           </div>
@@ -41,10 +41,22 @@ export default function PathsLessTraveledPage() {
                 </h2>
                 <div className="prose prose-lg">
                   <p>
-                    Step off the beaten track and discover Sri Lanka's hidden treasures. This unique tour takes you beyond the usual tourist spots to explore secluded villages, lesser-known ancient ruins, and pristine natural wonders.
+                    This journey through lesser-known Sri Lanka invites you to move at a gentle, mindful pace,
+                    weaving together mountains, forests, lakes, and coastlines in a seamless rhythm. Begin in the
+                    vibrant heart of Colombo, then flow into the misty highlands, where tea estates and mist-clad
+                    mountains create moments of quiet reflection.
                   </p>
                   <p className="mt-4">
-                    Journey through remote landscapes and connect with local communities that few visitors ever encounter. Experience the authentic heart of Sri Lanka through its undiscovered gems and genuine cultural encounters.
+                    Trek through sacred paths to watch the sunrise from Adam’s Peak, wander alongside indigenous
+                    Veddha guides, and glide across serene lakes as wildlife awakens around you. Each day blends
+                    immersive cultural encounters, gentle adventure, and quiet contemplation, from the ancient ruins
+                    of Polonnaruwa to hidden waterfalls and remote mountain villages.
+                  </p>
+                  <p className="mt-4">
+                    Evenings offer space to unwind in eco-conscious lodges or by the tranquil shore, grounding your
+                    senses in nature’s calm. Along the way, the landscapes, histories, and communities encountered
+                    become part of a holistic rhythm—connecting you to the heartbeat of the island. This is a journey
+                    designed for presence, curiosity, and mindful discovery.
                   </p>
                 </div>
               </div>
@@ -55,26 +67,21 @@ export default function PathsLessTraveledPage() {
                   Tour Highlights
                 </h2>
                 <ul className="space-y-4">
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Explore hidden waterfalls and secret forest trails</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Visit remote villages and experience authentic local life</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Discover lesser-known ancient ruins and archaeological sites</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Learn traditional crafts from local artisans</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Stay in unique accommodations off the tourist trail</span>
-                  </li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Evening city tour of Colombo, blending colonial charm and local culture</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>White-water rafting amidst Kitulgala’s lush rainforest</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Trek to Aberdeen Falls and connect with nature’s quiet power</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Midnight hike to Adam’s Peak for a sunrise over misty mountains</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Visit tea estates, pluck leaves, and experience traditional tea-making</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Scenic train journey from Hatton to Ella, passing rolling hills and valleys</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Explore Nine Arches Bridge and nearby verdant landscapes</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Jungle trek with a Veddha guide and boat safari on Sri Lanka’s largest lake</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Visit Dambana to learn from the Veddha community’s heritage and lifestyle</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Sunrise catamaran ride on Sora Bora Tank and waterfalls along the Knuckles Range</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Hike to Meemure Village and bathe in pristine natural pools</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Night walk in Polonnaruwa to spot the elusive slender loris</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Cycle through Polonnaruwa’s ancient ruins and hike Pidurangala Rock at dusk</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Explore Ritigala Forest Reserve and Anavilundawa Wetlands for tranquility and wildlife</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Leisure time at Kalpitiya to relax by the coast or engage in gentle water activities</span></li>
                 </ul>
               </div>
             </div>

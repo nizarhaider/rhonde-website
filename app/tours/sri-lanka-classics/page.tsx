@@ -24,7 +24,7 @@ export default function SriLankaClassicsPage() {
               Sri Lanka Classics
             </h1>
             <p className="mt-6 max-w-[600px] text-lg md:text-xl">
-              Immerse in the iconic highlights, from cultural hubs to coastal charm, all in one journey.
+              Journey through timeless landscapes, ancient heritage, and coastal charm in one unforgettable trip.
             </p>
             <div className="mt-4 text-lg font-medium">6 nights/7 days</div>
           </div>
@@ -41,10 +41,16 @@ export default function SriLankaClassicsPage() {
                 </h2>
                 <div className="prose prose-lg">
                   <p>
-                    Experience the essential highlights of Sri Lanka in this perfectly balanced journey. From ancient cities to colonial heritage, wildlife encounters to pristine beaches, this tour captures the island's most iconic experiences.
+                    Journey through Sri Lanka’s timeless landscapes and cultural heart, from ancient ruins and
+                    sacred temples to misty tea plantations and serene coastlines. Cycle among the storied stupas
+                    of Anuradhapura, catch sunsets atop Sigiriya, and experience the quiet rituals at Kandy’s
+                    Temple of the Tooth.
                   </p>
                   <p className="mt-4">
-                    Perfect for first-time visitors, this carefully curated itinerary introduces you to Sri Lanka's most beloved destinations and experiences, ensuring you don't miss any of the island's classic attractions.
+                    Ride the scenic train to Ella, hike to sweeping viewpoints, and witness wildlife on a twilight
+                    safari at Yala. Explore local traditions, from tea plucking to pottery making, and end your days
+                    wandering the charming streets of Galle Fort. Each moment balances gentle adventure with
+                    mindful presence, letting the island’s beauty and culture unfold naturally.
                   </p>
                 </div>
               </div>
@@ -55,26 +61,17 @@ export default function SriLankaClassicsPage() {
                   Tour Highlights
                 </h2>
                 <ul className="space-y-4">
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Climb the iconic Sigiriya Rock Fortress</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Safari adventure in a National Park</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Visit the Temple of the Sacred Tooth Relic</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Experience a traditional tea plantation</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Relax on pristine tropical beaches</span>
-                  </li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Cycle through Anuradhapura’s ancient city</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Sunset from Sigiriya’s Lion Rock</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Explore Dambulla’s Cave Temples</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Discover local spices and aromatic gardens</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Morning rituals at the Temple of the Tooth Relic in Kandy</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Tea plantation walks and leaf plucking in Nuwara Eliya</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Scenic train ride to Ella and visit Nine Arch Bridge</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Hike to Ella Rock for panoramic views</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Twilight safari at Yala National Park</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Observe traditional pottery at Debara Wewa</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Stroll the historic streets of Galle Fort</span></li>
                 </ul>
               </div>
             </div>

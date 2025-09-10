@@ -20,9 +20,11 @@ export default function MindfulSriLankaPage() {
             />
           </div>
           <div className="container relative z-10 flex flex-col items-center justify-center py-16 md:py-24 text-center text-white">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Mindful Sri Lanka</h1>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+              Mindful Sri Lanka
+            </h1>
             <p className="mt-6 max-w-[600px] text-lg md:text-xl">
-              Wander through serene forests and sacred spaces, letting each moment settle like a quiet breath.
+              Step into a journey that flows gently between mindful movement, serene landscapes, and cultural immersion.
             </p>
             <div className="mt-4 text-lg font-medium">9 nights/10 days</div>
           </div>
@@ -34,37 +36,49 @@ export default function MindfulSriLankaPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               {/* Left Column - Tour Overview */}
               <div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">Mindful Sri Lanka</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  Mindful Sri Lanka
+                </h2>
                 <div className="prose prose-lg">
-                  <p>Embark on a mindful journey through Sri Lanka's most serene locations. This thoughtfully designed tour combines meditation retreats, ancient Buddhist temples, and peaceful natural settings to create a truly contemplative experience.</p>
-                  <p className="mt-4">Each day brings new opportunities for inner reflection and outer exploration, as you discover the deep spiritual heritage of the island while nurturing your own practice of mindfulness and meditation.</p>
+                  <p>
+                    Step into a journey that flows gently between mindful movement, serene landscapes,
+                    and cultural immersion across Sri Lanka. From the quiet wilds of Wilpattu to the rolling tea
+                    country of the highlands and the tranquil shores of Ahungalla, each day balances moments
+                    of exploration with stillness and reflection.
+                  </p>
+                  <p className="mt-4">
+                    Mornings unfold with yoga, breathwork, and meditation, setting the rhythm for mindful
+                    connection to nature, history, and community. Along the way, you’ll witness sacred sites,
+                    wander spice gardens, and engage with local families, discovering the traditions and
+                    rhythms of island life.
+                  </p>
+                  <p className="mt-4">
+                    The accommodations are chosen for their peaceful settings, eco-conscious design, and
+                    ability to nurture presence, offering space to rest and rejuvenate. Ayurvedic consultations,
+                    holistic treatments, and creative practices invite a deeper sense of balance, while
+                    community visits remind you that travel can leave a positive footprint. By journey’s end,
+                    you emerge with renewed vitality, a calm mind, and a collection of shared experiences
+                    that linger long after you leave.
+                  </p>
                 </div>
               </div>
 
               {/* Right Column - Tour Highlights */}
               <div className="bg-muted/30 rounded-lg p-8">
-                <h2 className="text-2xl font-bold tracking-tighter mb-6">Tour Highlights</h2>
+                <h2 className="text-2xl font-bold tracking-tighter mb-6">
+                  Tour Highlights
+                </h2>
                 <ul className="space-y-4">
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Daily guided meditation and yoga sessions</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Visit ancient Buddhist temples and meditation caves</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Experience traditional Ayurvedic healing practices</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Silent walks through pristine nature reserves</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span>Stay at peaceful retreats and wellness-focused accommodations</span>
-                  </li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Grounding yoga, meditation, and breathwork sessions at each retreat location</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Safari exploration in Wilpattu National Park with opportunities to observe wildlife</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Sunrise hikes and visits to sacred historical sites, including Pidurangala Rock and Ritigala Monastery</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Hands-on cultural experiences: cooking with local families and exploring spice gardens</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Ayurvedic consultations, optional treatments, and wellness practices in Kandy and Ahungalla</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Scenic highland journey with tea factory visit, train ride through Ella, and waterfall views</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Creative and mindful activities: riverside painting, Yin Yoga, and optional sound baths</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Beachside relaxation, yoga, and meditation at Bogenvilya by One World Foundation</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Engagement with sustainable initiatives and community projects, including the local welfare school</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Farewell celebrations with Bhajan, Dance Fusion, and reflective beachside moments</span></li>
                 </ul>
               </div>
             </div>
@@ -75,7 +89,9 @@ export default function MindfulSriLankaPage() {
         <section className="py-16 bg-gray-50">
           <div className="container">
             <div className="flex flex-col items-center text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Begin Your Journey?</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Ready to Begin Your Journey?
+              </h2>
               <p className="mt-4 text-lg text-muted-foreground max-w-[600px]">
                 Contact us to customize this tour to your preferences and start planning your Sri Lankan adventure.
               </p>
