@@ -11,7 +11,7 @@ export default function HowItStartedPage() {
         <section className="relative">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/images/golden-sunset.png"
+              src="/images/how_it_started_2.jpg"
               alt="How It Started"
               fill
               className="object-cover brightness-[0.7]"
@@ -49,7 +49,7 @@ export default function HowItStartedPage() {
               <div className="flex-1">
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                   <Image
-                    src="/images/mountain-valley.png"
+                    src="/images/how_it_started_2.jpg"
                     alt="Sri Lankan Landscape"
                     fill
                     className="object-cover"
@@ -63,7 +63,7 @@ export default function HowItStartedPage() {
               <div className="flex-1">
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                   <Image
-                    src="/images/green-valley.png"
+                    src="/images/how_it_started_1.webp"
                     alt="Sustainable Tourism"
                     fill
                     className="object-cover"
