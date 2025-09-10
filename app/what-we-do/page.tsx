@@ -190,7 +190,7 @@ export default function WhatWeDo() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="flex flex-col">
                 <div className="relative h-48 rounded-lg overflow-hidden mb-4">
-                  <Image src="/images/buddha-statues.png" alt="Cultural Immersion" fill className="object-cover" />
+                  <Image src="/images/cultural_immersion.jpg" alt="Cultural Immersion" fill className="object-cover" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Cultural Immersion</h3>
                 <p className="text-muted-foreground mb-4">
@@ -199,16 +199,16 @@ export default function WhatWeDo() {
               </div>
               <div className="flex flex-col">
                 <div className="relative h-48 rounded-lg overflow-hidden mb-4">
-                  <Image src="/images/handicraft.png" alt="Culinary Journeys" fill className="object-cover" />
+                  <Image src="/images/culinary_activities.jpg" alt="Culinary Activities" fill className="object-cover" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Culinary Journeys</h3>
+                <h3 className="text-xl font-bold mb-2">Culinary Activities</h3>
                 <p className="text-muted-foreground mb-4">
                   Cooking classes, spice garden visits, and food tours exploring Sri Lanka's rich culinary heritage.
                 </p>
               </div>
               <div className="flex flex-col">
                 <div className="relative h-48 rounded-lg overflow-hidden mb-4">
-                  <Image src="/images/coastal-aerial.png" alt="Wildlife Encounters" fill className="object-cover" />
+                  <Image src="/images/wildlife_encounters.jpg" alt="Wildlife Encounters" fill className="object-cover" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Wildlife Encounters</h3>
                 <p className="text-muted-foreground mb-4">
@@ -217,7 +217,7 @@ export default function WhatWeDo() {
               </div>
               <div className="flex flex-col">
                 <div className="relative h-48 rounded-lg overflow-hidden mb-4">
-                  <Image src="/images/ocean-waves.png" alt="Adventure Activities" fill className="object-cover" />
+                  <Image src="/images/adventerous_activities.jpg" alt="Adventure Activities" fill className="object-cover" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Adventure Activities</h3>
                 <p className="text-muted-foreground mb-4">
@@ -226,20 +226,20 @@ export default function WhatWeDo() {
               </div>
               <div className="flex flex-col">
                 <div className="relative h-48 rounded-lg overflow-hidden mb-4">
-                  <Image src="/images/lake-view.png" alt="Wellness Experiences" fill className="object-cover" />
+                  <Image src="/images/wellness_experience.jpg" alt="Wellness Experiences" fill className="object-cover" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Wellness Experiences</h3>
                 <p className="text-muted-foreground mb-4">
-                  Traditional Ayurvedic treatments, yoga sessions, and meditation in tranquil settings.
+                  Traditional Ayurvedic treatments, yoga sessions, and meditation in the most serene locations of the island.
                 </p>
               </div>
               <div className="flex flex-col">
                 <div className="relative h-48 rounded-lg overflow-hidden mb-4">
-                  <Image src="/images/tea-plantations.png" alt="Tea Plantation Visits" fill className="object-cover" />
+                  <Image src="/images/mingle_with_locals.jpg" alt="Tea Plantation Visits" fill className="object-cover" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Tea Plantation Visits</h3>
+                <h3 className="text-xl font-bold mb-2">Mingle with Locals</h3>
                 <p className="text-muted-foreground mb-4">
-                  Explore Sri Lanka's famous tea country, learn about tea production, and sample the finest Ceylon teas.
+                  Meet friendly locals who're always looking forward to teaching you their ways and learn from you.
                 </p>
               </div>
             </div>
