@@ -55,7 +55,7 @@ export default function WhatWeDo() {
                 {
                   id: "mindful-sri-lanka",
                   name: "Mindful Sri Lanka",
-                  description: "Wander through serene forests and sacred spaces, letting each moment settle like a quiet breath.",
+                  description: "Detox consciously as you wander through Sri Lanka’s best kept serene forests and spiritual spaces.",
                   duration: "9 nights/10 days",
                   image: "/images/Mindful_Sri_Lanka.jpg"
                 },
@@ -69,7 +69,7 @@ export default function WhatWeDo() {
                 {
                   id: "echoes-of-ramayana",
                   name: "Echoes of the Ramayana",
-                  description: "Follow the footsteps of legends across timeless temples, forests, and coastal treasures.",
+                  description: "Explore the breathtaking wildlife, mouthwatering food and immersive Tamil culture of Northern Sri Lanka where history whispers in every corner.",
                   duration: "8 nights/9 days",
                   image: "/images/Echoes_of_Ramayana.JPG"
                 },
@@ -83,7 +83,7 @@ export default function WhatWeDo() {
                 {
                   id: "sri-lanka-classics",
                   name: "Sri Lanka Classics",
-                  description: "Immerse in the iconic highlights, from cultural hubs to coastal charm, all in one journey.",
+                  description: "The iconic highlights of Ceylon from cultural hubs to coastal charm, all in one journey ",
                   duration: "6 nights/7 days",
                   image: "/images/srilanka_classics.png"
                 }

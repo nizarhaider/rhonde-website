@@ -14,7 +14,7 @@ const tours = [
   {
     id: "mindful-sri-lanka",
     name: "Mindful Sri Lanka",
-    description: "Wander through serene forests and sacred spaces, letting each moment settle like a quiet breath.",
+    description: "Detox consciously as you wander through Sri Lanka’s best kept serene forests and spiritual spaces.",
     duration: "9 nights/10 days",
     image: "/images/monk_meditating.jpg"
   },
@@ -28,21 +28,21 @@ const tours = [
   {
     id: "echoes-of-ramayana",
     name: "Echoes of the Ramayana",
-    description: "Follow the footsteps of legends across timeless temples, forests, and coastal treasures.",
+    description: "Follow the footsteps of ancient legends of the Ramayana across timeless temples, forests, and coastal treasures.",
     duration: "8 nights/9 days",
     image: "/images/cave-temple.png"
   },
   {
     id: "northern-wonders",
     name: "Northern Wonders and Heritage",
-    description: "Explore ancient cities and coastal gems where history whispers in every corner.",
+    description: "Explore the breathtaking wildlife, mouthwatering food and immersive Tamil culture of Northern Sri Lanka where history whispers in every corner.",
     duration: "7 nights/8 days",
     image: "/images/buddha_statue_cave.jpg"
   },
   {
     id: "sri-lanka-classics",
     name: "Sri Lanka Classics",
-    description: "Immerse in the iconic highlights, from cultural hubs to coastal charm, all in one journey.",
+    description: "The iconic highlights of Ceylon from cultural hubs to coastal charm, all in one journey.",
     duration: "6 nights/7 days",
     image: "/images/sigiriya-rock.png"
   }
