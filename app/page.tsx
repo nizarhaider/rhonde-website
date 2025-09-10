@@ -24,7 +24,7 @@ export default function Home() {
               priority
             />
           </div>
-          <div className="container relative z-10 h-full flex flex-col justify-start items-center pt-32">
+          <div className="container relative z-10 h-full flex flex-col justify-end items-center pb-32">
             <div className="text-center space-y-6">
               <h1>
                 <span className="text-white px-4 py-2 rounded-lg inline-block text-5xl md:text-6xl lg:text-5xl font-bold">
@@ -40,13 +40,15 @@ export default function Home() {
               <Button
                 asChild
                 className="mt-6 border border-white bg-transparent text-white px-8 py-3 text-lg font-medium 
-                          hover:bg-green-500 hover:text-white transition-all duration-300 transform hover:-translate-y-1"
+                          hover:bg-green-900 hover:text-white transition-all duration-300 transform hover:-translate-y-1"
               >
                 <Link href="/what-we-do">Explore What We Do</Link>
               </Button>
             </div>
           </div>
         </section>
+
+
 
 
         {/* About Us Description */}
