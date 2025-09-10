@@ -268,7 +268,6 @@ export default function WhatWeDo() {
   )
 }
 
-// Sample data
 const tours = [
   {
     id: "cultural-triangle",

@@ -1,5 +1,6 @@
 "use client"
 import React from "react"
+import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
@@ -22,9 +23,16 @@ export function MainNav({ isTransparent = false }) {
         className={`w-full transition-colors duration-300 ${isTransparent ? "bg-transparent" : "border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"}`}
       >
         <div className="container flex h-16 items-center justify-between">
-          <Link href="/" className={`text-3xl font-bold tracking-wider ${isTransparent ? "text-white" : ""}`}>
-            RONDÈ
+          <Link href="/" className="flex items-center">
+            <Image
+              src={isTransparent ? "/images/logo_white.png" : "/images/logo_black.png"}
+              alt="RONDE Logo"
+              width={150}  
+              height={40} 
+              priority
+            />
           </Link>
+
           <nav className="hidden md:flex gap-8 items-center">
             <Link
               href="/what-we-do"
