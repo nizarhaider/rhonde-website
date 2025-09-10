@@ -1,20 +1,59 @@
 import React from "react"
-i        {/* Two Column Layout Section */}
+import Image from "next/image"
+import { MainNav } from "@/components/main-nav"
+import { SiteFooter } from "@/components/site-footer"
+
+export default function SriLankaClassicsPage() {
+  return (
+    <div className="flex min-h-screen flex-col">
+      <MainNav />
+      <main className="flex-1">
+        {/* Hero Section */}
+        <section className="relative">
+          <div className="absolute inset-0 z-0">
+            <Image
+              src="/images/srilanka_classics.png"
+              alt="Sri Lanka Classics"
+              fill
+              className="object-cover brightness-[0.7]"
+              priority
+            />
+          </div>
+          <div className="container relative z-10 flex flex-col items-center justify-center py-16 md:py-24 text-center text-white">
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+              Sri Lanka Classics
+            </h1>
+            <p className="mt-6 max-w-[600px] text-lg md:text-xl">
+              Immerse in the iconic highlights, from cultural hubs to coastal charm, all in one journey.
+            </p>
+            <div className="mt-4 text-lg font-medium">6 nights/7 days</div>
+          </div>
+        </section>
+
+        {/* Two Column Layout Section */}
         <section className="py-16 md:py-24">
           <div className="container">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               {/* Left Column - Tour Overview */}
               <div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">Sri Lanka Classics</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  Sri Lanka Classics
+                </h2>
                 <div className="prose prose-lg">
-                  <p>Experience the essential highlights of Sri Lanka in this perfectly balanced journey. From ancient cities to colonial heritage, wildlife encounters to pristine beaches, this tour captures the island's most iconic experiences.</p>
-                  <p className="mt-4">Perfect for first-time visitors, this carefully curated itinerary introduces you to Sri Lanka's most beloved destinations and experiences, ensuring you don't miss any of the island's classic attractions.</p>
+                  <p>
+                    Experience the essential highlights of Sri Lanka in this perfectly balanced journey. From ancient cities to colonial heritage, wildlife encounters to pristine beaches, this tour captures the island's most iconic experiences.
+                  </p>
+                  <p className="mt-4">
+                    Perfect for first-time visitors, this carefully curated itinerary introduces you to Sri Lanka's most beloved destinations and experiences, ensuring you don't miss any of the island's classic attractions.
+                  </p>
                 </div>
               </div>
 
               {/* Right Column - Tour Highlights */}
               <div className="bg-muted/30 rounded-lg p-8">
-                <h2 className="text-2xl font-bold tracking-tighter mb-6">Tour Highlights</h2>
+                <h2 className="text-2xl font-bold tracking-tighter mb-6">
+                  Tour Highlights
+                </h2>
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <span className="mr-2 mt-1">•</span>
@@ -42,47 +81,13 @@ i        {/* Two Column Layout Section */}
           </div>
         </section>
 
-        {/* Contact Section */} from "next/image"
-
-export default function SriLankaClassicsPage() {
-  return (
-    <div className="flex min-h-screen flex-col">
-      <main className="flex-1">
-        {/* Hero Section */}
-        <section className="relative">
-          <div className="absolute inset-0 z-0">
-            <Image
-              src="/images/srilanka_classics.png"
-              alt="Sri Lanka Classics"
-              fill
-              className="object-cover brightness-[0.7]"
-              priority
-            />
-          </div>
-          <div className="container relative z-10 flex flex-col items-center justify-center py-16 md:py-24 text-center text-white">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Sri Lanka Classics</h1>
-            <p className="mt-6 max-w-[600px] text-lg md:text-xl">
-              Immerse in the iconic highlights, from cultural hubs to coastal charm, all in one journey.
-            </p>
-            <div className="mt-4 text-lg font-medium">6 nights/7 days</div>
-          </div>
-        </section>
-
-        {/* Overview Section */}
-        <section className="py-16 md:py-24">
-          <div className="container">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-8">Tour Overview</h2>
-            <div className="prose prose-lg max-w-none">
-              <p>Experience the essential highlights of Sri Lanka in this perfectly paced journey. From ancient ruins to colonial towns, tea plantations to pristine beaches, this tour offers a comprehensive introduction to the island's most beloved destinations.</p>
-            </div>
-          </div>
-        </section>
-
         {/* Contact Section */}
         <section className="py-16 bg-gray-50">
           <div className="container">
             <div className="flex flex-col items-center text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Begin Your Journey?</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Ready to Begin Your Journey?
+              </h2>
               <p className="mt-4 text-lg text-muted-foreground max-w-[600px]">
                 Contact us to customize this tour to your preferences and start planning your Sri Lankan adventure.
               </p>
@@ -98,6 +103,7 @@ export default function SriLankaClassicsPage() {
           </div>
         </section>
       </main>
+      <SiteFooter />
     </div>
   )
 }

@@ -1,20 +1,59 @@
 import React from "react"
-i        {/* Two Column Layout Section */}
+import Image from "next/image"
+import { MainNav } from "@/components/main-nav"
+import { SiteFooter } from "@/components/site-footer"
+
+export default function PathsLessTraveledPage() {
+  return (
+    <div className="flex min-h-screen flex-col">
+      <MainNav />
+      <main className="flex-1">
+        {/* Hero Section */}
+        <section className="relative">
+          <div className="absolute inset-0 z-0">
+            <Image
+              src="/images/Paths_less_travelled.jpg"
+              alt="Paths Less Traveled"
+              fill
+              className="object-cover brightness-[0.7]"
+              priority
+            />
+          </div>
+          <div className="container relative z-10 flex flex-col items-center justify-center py-16 md:py-24 text-center text-white">
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+              Paths Less Traveled
+            </h1>
+            <p className="mt-6 max-w-[600px] text-lg md:text-xl">
+              Step off the beaten path and uncover hidden villages, secret waterfalls, and untouched landscapes.
+            </p>
+            <div className="mt-4 text-lg font-medium">12 nights/13 days</div>
+          </div>
+        </section>
+
+        {/* Two Column Layout Section */}
         <section className="py-16 md:py-24">
           <div className="container">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               {/* Left Column - Tour Overview */}
               <div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">Paths Less Traveled</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">
+                  Paths Less Traveled
+                </h2>
                 <div className="prose prose-lg">
-                  <p>Step off the beaten track and discover Sri Lanka's hidden treasures. This unique tour takes you beyond the usual tourist spots to explore secluded villages, lesser-known ancient ruins, and pristine natural wonders.</p>
-                  <p className="mt-4">Journey through remote landscapes and connect with local communities that few visitors ever encounter. Experience the authentic heart of Sri Lanka through its undiscovered gems and genuine cultural encounters.</p>
+                  <p>
+                    Step off the beaten track and discover Sri Lanka's hidden treasures. This unique tour takes you beyond the usual tourist spots to explore secluded villages, lesser-known ancient ruins, and pristine natural wonders.
+                  </p>
+                  <p className="mt-4">
+                    Journey through remote landscapes and connect with local communities that few visitors ever encounter. Experience the authentic heart of Sri Lanka through its undiscovered gems and genuine cultural encounters.
+                  </p>
                 </div>
               </div>
 
               {/* Right Column - Tour Highlights */}
               <div className="bg-muted/30 rounded-lg p-8">
-                <h2 className="text-2xl font-bold tracking-tighter mb-6">Tour Highlights</h2>
+                <h2 className="text-2xl font-bold tracking-tighter mb-6">
+                  Tour Highlights
+                </h2>
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <span className="mr-2 mt-1">•</span>
@@ -42,47 +81,13 @@ i        {/* Two Column Layout Section */}
           </div>
         </section>
 
-        {/* Contact Section */} from "next/image"
-
-export default function PathsLessTraveledPage() {
-  return (
-    <div className="flex min-h-screen flex-col">
-      <main className="flex-1">
-        {/* Hero Section */}
-        <section className="relative">
-          <div className="absolute inset-0 z-0">
-            <Image
-              src="/images/Paths_less_travelled.jpg"
-              alt="Paths Less Traveled"
-              fill
-              className="object-cover brightness-[0.7]"
-              priority
-            />
-          </div>
-          <div className="container relative z-10 flex flex-col items-center justify-center py-16 md:py-24 text-center text-white">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Paths Less Traveled</h1>
-            <p className="mt-6 max-w-[600px] text-lg md:text-xl">
-              Step off the beaten path and uncover hidden villages, secret waterfalls, and untouched landscapes.
-            </p>
-            <div className="mt-4 text-lg font-medium">12 nights/13 days</div>
-          </div>
-        </section>
-
-        {/* Overview Section */}
-        <section className="py-16 md:py-24">
-          <div className="container">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-8">Tour Overview</h2>
-            <div className="prose prose-lg max-w-none">
-              <p>Venture beyond the usual tourist routes to discover Sri Lanka's hidden treasures. This extended journey takes you to lesser-known destinations, offering authentic experiences and interactions with local communities in untouched corners of the island.</p>
-            </div>
-          </div>
-        </section>
-
         {/* Contact Section */}
         <section className="py-16 bg-gray-50">
           <div className="container">
             <div className="flex flex-col items-center text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Begin Your Journey?</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Ready to Begin Your Journey?
+              </h2>
               <p className="mt-4 text-lg text-muted-foreground max-w-[600px]">
                 Contact us to customize this tour to your preferences and start planning your Sri Lankan adventure.
               </p>
@@ -98,6 +103,7 @@ export default function PathsLessTraveledPage() {
           </div>
         </section>
       </main>
+      <SiteFooter />
     </div>
   )
 }
