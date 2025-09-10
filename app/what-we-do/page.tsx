@@ -44,27 +44,67 @@ export default function WhatWeDo() {
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {tours.map((tour) => (
-                <Card key={tour.id} className="overflow-hidden">
-                  <div className="relative h-60">
-                    <Image
-                      src={tour.image || "/placeholder.svg"}
-                      alt={tour.name}
-                      fill
-                      className="object-cover transition-transform hover:scale-105 duration-300"
-                    />
-                  </div>
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-bold mb-2">{tour.name}</h3>
-                    <p className="text-muted-foreground mb-4">{tour.description}</p>
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm text-muted-foreground">{tour.duration}</span>
-                      <Button asChild variant="outline" size="sm" className="hover:bg-black hover:text-white">
-                        <Link href="/contact-us">Inquire</Link>
-                      </Button>
+              {[
+                {
+                  id: "waves-to-peaks",
+                  name: "From Waves to Peaks",
+                  description: "Trace the rhythm of Sri Lanka, from sun-kissed shores to misty mountain heights.",
+                  duration: "7 nights/8 days",
+                  image: "/images/mountain-valley.png"
+                },
+                {
+                  id: "mindful-sri-lanka",
+                  name: "Mindful Sri Lanka",
+                  description: "Wander through serene forests and sacred spaces, letting each moment settle like a quiet breath.",
+                  duration: "9 nights/10 days",
+                  image: "/images/monk_meditating.jpg"
+                },
+                {
+                  id: "paths-less-traveled",
+                  name: "Paths Less Traveled",
+                  description: "Step off the beaten path and uncover hidden villages, secret waterfalls, and untouched landscapes.",
+                  duration: "12 nights/13 days",
+                  image: "/images/green-valley.png"
+                },
+                {
+                  id: "echoes-of-ramayana",
+                  name: "Echoes of the Ramayana",
+                  description: "Follow the footsteps of legends across timeless temples, forests, and coastal treasures.",
+                  duration: "8 nights/9 days",
+                  image: "/images/cave-temple.png"
+                },
+                {
+                  id: "northern-wonders",
+                  name: "Northern Wonders and Heritage",
+                  description: "Explore ancient cities and coastal gems where history whispers in every corner.",
+                  duration: "7 nights/8 days",
+                  image: "/images/buddha_statue_cave.jpg"
+                },
+                {
+                  id: "sri-lanka-classics",
+                  name: "Sri Lanka Classics",
+                  description: "Immerse in the iconic highlights, from cultural hubs to coastal charm, all in one journey.",
+                  duration: "6 nights/7 days",
+                  image: "/images/sigiriya-rock.png"
+                }
+              ].map((tour) => (
+                <Link key={tour.id} href={`/tours/${tour.id}`}>
+                  <Card className="overflow-hidden h-full hover:shadow-lg transition-shadow">
+                    <div className="relative h-60">
+                      <Image
+                        src={tour.image}
+                        alt={tour.name}
+                        fill
+                        className="object-cover transition-transform hover:scale-105 duration-300"
+                      />
                     </div>
-                  </CardContent>
-                </Card>
+                    <CardContent className="p-6">
+                      <h3 className="text-xl font-bold mb-2">{tour.name}</h3>
+                      <p className="text-muted-foreground mb-4">{tour.description}</p>
+                      <p className="text-sm font-medium">{tour.duration}</p>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
           </div>

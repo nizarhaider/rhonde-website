@@ -61,6 +61,73 @@ export function MainNav({ isTransparent = false }) {
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
+            <NavigationMenu>
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger className={`text-sm font-medium cursor-default ${isTransparent ? "text-white" : ""}`} onClick={(e) => e.preventDefault()}>
+                    Tours
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <ul className="grid gap-3 p-4 w-[400px] bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80 rounded-md shadow-lg">
+                      <li>
+                        <Link
+                          href="/tours/waves-to-peaks"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">From Waves to Peaks</div>
+                          <p className="text-sm text-muted-foreground mt-1">7 nights/8 days</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/tours/mindful-sri-lanka"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Mindful Sri Lanka</div>
+                          <p className="text-sm text-muted-foreground mt-1">9 nights/10 days</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/tours/paths-less-traveled"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Paths Less Traveled</div>
+                          <p className="text-sm text-muted-foreground mt-1">12 nights/13 days</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/tours/echoes-of-ramayana"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Echoes of the Ramayana</div>
+                          <p className="text-sm text-muted-foreground mt-1">8 nights/9 days</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/tours/northern-wonders"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Northern Wonders and Heritage</div>
+                          <p className="text-sm text-muted-foreground mt-1">7 nights/8 days</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/tours/sri-lanka-classics"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Sri Lanka Classics</div>
+                          <p className="text-sm text-muted-foreground mt-1">6 nights/7 days</p>
+                        </Link>
+                      </li>
+                    </ul>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
             <Link
               href="/why-sri-lanka"
               className={`text-sm font-medium hover:opacity-80 ${isTransparent ? "text-white" : ""}`}
@@ -108,6 +175,35 @@ export function MainNav({ isTransparent = false }) {
                       </Link>
                       <Link href="/what-we-do/meet-the-team" className="text-sm font-medium transition-colors hover:text-primary">
                         Meet the Team
+                      </Link>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="text-sm font-medium mb-2">Tours</div>
+                    <div className="grid gap-2 pl-4">
+                      <Link href="/tours/waves-to-peaks" className="text-sm font-medium transition-colors hover:text-primary">
+                        From Waves to Peaks
+                        <span className="text-sm text-muted-foreground block">7 nights/8 days</span>
+                      </Link>
+                      <Link href="/tours/mindful-sri-lanka" className="text-sm font-medium transition-colors hover:text-primary">
+                        Mindful Sri Lanka
+                        <span className="text-sm text-muted-foreground block">9 nights/10 days</span>
+                      </Link>
+                      <Link href="/tours/paths-less-traveled" className="text-sm font-medium transition-colors hover:text-primary">
+                        Paths Less Traveled
+                        <span className="text-sm text-muted-foreground block">12 nights/13 days</span>
+                      </Link>
+                      <Link href="/tours/echoes-of-ramayana" className="text-sm font-medium transition-colors hover:text-primary">
+                        Echoes of the Ramayana
+                        <span className="text-sm text-muted-foreground block">8 nights/9 days</span>
+                      </Link>
+                      <Link href="/tours/northern-wonders" className="text-sm font-medium transition-colors hover:text-primary">
+                        Northern Wonders and Heritage
+                        <span className="text-sm text-muted-foreground block">7 nights/8 days</span>
+                      </Link>
+                      <Link href="/tours/sri-lanka-classics" className="text-sm font-medium transition-colors hover:text-primary">
+                        Sri Lanka Classics
+                        <span className="text-sm text-muted-foreground block">6 nights/7 days</span>
                       </Link>
                     </div>
                   </div>
