@@ -6,7 +6,7 @@ export default function HowItStartedPage() {
       <h1 className="text-4xl font-bold mb-8">How It Started</h1>
       <div className="prose prose-lg">
         <p>
-          [Your company origin story and history content will go here]
+          [kdjiajdsncsijndc]
         </p>
       </div>
     </div>
