@@ -27,7 +27,7 @@ export default function WhatWeDo() {
               Creating unforgettable Sri Lankan experiences tailored to your preferences
             </p>
             <Link href="/what-we-do/meet-the-team">
-              <Button size="lg" className="mt-8 bg-black text-white hover:bg-black/80">
+              <Button variant="outline" size="lg" className="mt-8 bg-transparent text-white border-white hover:bg-white hover:text-black transition-colors">
                 Meet the Team
               </Button>
             </Link>

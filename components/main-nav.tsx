@@ -73,9 +73,6 @@ export function MainNav({ isTransparent = false }) {
             >
               Responsible tourism
             </Link>
-            <Link href="/blog" className={`text-sm font-medium hover:opacity-80 ${isTransparent ? "text-white" : ""}`}>
-              Blog
-            </Link>
             <Link
               href="/contact-us"
               className={`text-sm font-medium hover:opacity-80 ${isTransparent ? "text-white" : ""}`}
@@ -122,9 +119,6 @@ export function MainNav({ isTransparent = false }) {
                     className="text-sm font-medium transition-colors hover:text-primary"
                   >
                     Responsible tourism
-                  </Link>
-                  <Link href="/blog" className="text-sm font-medium transition-colors hover:text-primary">
-                    Blog
                   </Link>
                   <Link href="/contact-us" className="text-sm font-medium transition-colors hover:text-primary">
                     Contact us
