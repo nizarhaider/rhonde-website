@@ -26,28 +26,26 @@ export function MainNav({ isTransparent = false }) {
             RONDÈ
           </Link>
           <nav className="hidden md:flex gap-8 items-center">
+            <Link
+              href="/what-we-do"
+              className={`text-sm font-medium hover:opacity-80 ${isTransparent ? "text-white" : ""}`}
+            >
+              What We Do
+            </Link>
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger className={`text-sm font-medium cursor-default ${isTransparent ? "text-white" : ""}`} onClick={(e) => e.preventDefault()}>
-                    What We Do
+                    How It Started
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <ul className="grid gap-3 p-4 w-[300px] bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80 rounded-md shadow-lg">
                       <li>
                         <Link
-                          href="/what-we-do"
-                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                        >
-                          <div className="text-sm font-medium leading-none">Bespoke Tours</div>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
                           href="/what-we-do/how-it-started"
                           className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                         >
-                          <div className="text-sm font-medium leading-none">How It Started</div>
+                          <div className="text-sm font-medium leading-none">Our Story</div>
                         </Link>
                       </li>
                       <li>
@@ -102,12 +100,20 @@ export function MainNav({ isTransparent = false }) {
                   RONDÈ
                 </Link>
                 <div className="grid gap-4">
-                  <Link href="/tours" className="text-sm font-medium transition-colors hover:text-primary">
-                    Tours
-                  </Link>
                   <Link href="/what-we-do" className="text-sm font-medium transition-colors hover:text-primary">
                     What We Do
                   </Link>
+                  <div>
+                    <div className="text-sm font-medium mb-2">How It Started</div>
+                    <div className="grid gap-2 pl-4">
+                      <Link href="/what-we-do/how-it-started" className="text-sm font-medium transition-colors hover:text-primary">
+                        Our Story
+                      </Link>
+                      <Link href="/what-we-do/meet-the-team" className="text-sm font-medium transition-colors hover:text-primary">
+                        Meet the Team
+                      </Link>
+                    </div>
+                  </div>
                   <Link href="/why-sri-lanka" className="text-sm font-medium transition-colors hover:text-primary">
                     Why Sri Lanka
                   </Link>
