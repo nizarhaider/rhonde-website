@@ -431,24 +431,24 @@ export default function Home() {
 let experiences = [
   {
     id: "tea-country",
-    name: "Tea Country Exploration",
-    location: "Central Highlands",
-    description: "Discover the lush tea plantations and misty mountains of Sri Lanka's central highlands.",
-    image: "/images/tea-plantations.png",
+    name: "Mediate with a Monk",
+    location: "Mihintale",
+    description: "Meditate and share stories with a monk atop an ancient monastery.",
+    image: "/images/monk_meditating.jpg",
   },
   {
     id: "safari-journey",
-    name: "Exciting Safari Journey",
-    location: "Southern Highlands",
-    description: "Witness the incredible wildlife of Sri Lanka in its national parks.",
-    image: "/images/mountain-valley.png",
+    name: "Discover Northern Flavors",
+    location: "Jaffna",
+    description: "Cook Jaffna crab curry with locals.",
+    image: "/images/crab_curry.jpg",
   },
   {
     id: "cultural-immersion",
-    name: "Cultural Immersion",
-    location: "Kandy",
-    description: "Experience traditional Sri Lankan culture through dance, art, and local customs.",
-    image: "/images/temple-interior.png",
+    name: "Forgotten Crops",
+    location: "Ella",
+    description: "Follow Sri Lanka’s hidden coffee trails and forgotten crops",
+    image: "/images/tea_plantation_show.avif",
   },
 ]
 
