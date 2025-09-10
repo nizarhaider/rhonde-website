@@ -40,6 +40,30 @@ export default function Home() {
           </div>
         </section>
 
+        {/* About Us Description */}
+        <section className="py-16 md:py-24">
+          <div className="container">
+            <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-light italic mb-8">Sri Lanka, curated</h2>
+              <div className="space-y-6 text-muted-foreground">
+                <p className="text-lg leading-relaxed">
+                  We craft journeys that invite you to explore Sri Lanka intentionally, with every moment thoughtfully 
+                  designed to connect you to the island's culture, nature, and people. Our approach blends mindful travel 
+                  with accessible luxury—experiences that feel indulgent without ever being over the top. From hidden 
+                  retreats to authentic local encounters, we carefully curate every step of your journey so that each detail 
+                  matters.
+                </p>
+                <p className="text-lg leading-relaxed">
+                  Responsibility is at the heart of what we do; from eco-conscious stays to supporting local communities, 
+                  every choice is made with care. Whether it's a sunrise over a misty tea estate or a quiet village story waiting 
+                  to be discovered, we ensure these moments are yours to savor.
+                </p>
+                <p className="text-xl font-medium mt-8">With Ronde, Sri Lanka comes alive.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* What We Do Snippet */}
         <section className="py-16 md:py-24 bg-muted/50">
           <div className="container">
